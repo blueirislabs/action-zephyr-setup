@@ -78,7 +78,7 @@ runs:
 
         if [ "${{ runner.os }}" = "Linux" ]; then
           pip_cache_path="~/.cache/pip"
-          sdk_ext="tar.xz"
+          sdk_ext="tar.gz"
           setup_file="./setup.sh"
           setup_opt="-"
         elif [ "${{ runner.os }}" = "macOS" ]; then
